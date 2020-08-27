@@ -1,2 +1,2 @@
 # robot-architecture-app
-vue移动端动态路由切换
+vue移动端路由左右动态切换

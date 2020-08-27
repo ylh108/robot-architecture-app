@@ -1,0 +1,61 @@
+/* 除了顶部后退键外的页面高度 */
+.clearfix {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.footer {
+    height: 0.44rem;
+    border-top: 0.01rem solid #ebedf0;
+    width: 100%;
+    box-shadow: 0px -0.01rem 0.1rem #ebedf0;
+}
+
+.search.van-search {
+    padding: 0;
+
+    input.van-field__control {
+        padding-left: 0;
+    }
+}
+
+.container.cell-2 {
+    .van-cell-group {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+
+        .van-cell {
+            width: calc(50% - 0.12rem);
+            padding: 0;
+            margin: 0.05rem;
+            border: 0.01rem solid #ebeef5;
+            text-align: center;
+        }
+
+        .li {
+            .img {
+                height: 1.4rem;
+                overflow: hidden;
+            }
+
+            .checkbox {
+                height: 0.4rem;
+                padding: 0 0.1rem;
+            }
+        }
+    }
+}
